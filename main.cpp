@@ -18,13 +18,17 @@ int main()
   */
 
   //PUT YOUR CODE BELOW THIS LINE
-  //that prints each element of the matrix in the
-  //following format:
+ 
+ for(int index= 0; index < max; index++)
+    {
+    cout<<"Row "<<wordGrid[Row]<<"Column "<<wordGrid[Column]<<"Is "<<
+    wordGrid[Row][Column]<<endl;
+    
+    }
   //Row _ Column _ is _
-  //the first and second blanks should be replaced with the coordinates
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
-
+  //I tried, oh well.
   
 
 
